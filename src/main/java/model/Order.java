@@ -1,10 +1,9 @@
-package Model;
+package model;
 
 
 import java.io.Serializable;
 import java.util.ArrayList;
 
-//TODO redo order class so is POJO and serializable for transfer across network
 public class Order implements Serializable{
     private String serialNumber;
     private long amount;
